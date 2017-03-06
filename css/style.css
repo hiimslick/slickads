@@ -1,0 +1,85 @@
+h2.sa-header {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  background-color: #649316;
+  margin-right: 20px;
+  color: #FFF;
+  width: 78%;
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+.wrap {
+  border: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  padding: 10px 20px 30px;
+  width: 78%;
+}
+.wrap h2 { border-bottom: 1px dashed #000; }
+#slick-ads form > div {
+  margin-top: 10px;
+}
+#slick-ads form > div#form {
+  /* max-width: 1100px; */
+  width: 100%;
+}
+#slick-ads form > div#form > div {
+  display: block;
+}
+#slick-ads form > div#form > div.heading > div {
+  font-weight: 600;
+  font-size: 18px;
+}
+#slick-ads form > div#form > div > div {
+  float: left;
+  margin: 0px;
+  padding: 0.2692307692307693em 1.1636363636363635%;
+  text-align: center;
+}
+#slick-ads form > div#form > div > div.row_url {
+  width: 27.27272727272727%;
+}
+#slick-ads form > div#form > div > div.row_image {
+  width: 32.273%;
+}
+#slick-ads form > div#form > div > div.row_button {
+  width: 7.2727272727272725%;
+}
+#slick-ads form > div#form > div > div:first-of-type {
+  padding-left: 0px;
+}
+#slick-ads form > div#form > div > div:last-of-type {
+  padding-right: 0px;
+}
+#slick-ads form > div#form > div > div > input.field_url {
+  width: 100%;
+}
+#slick-ads form > div#form > div > div > input.field_image_banner,
+#slick-ads form > div#form > div > div > input.field_image_thumb {
+  width: -moz-calc(100% - 110px);
+  width: -webkit-calc(100% - 110px);
+  width: -o-calc(100% - 110px);
+  width: calc(100% - 110px);
+}
+#slick-ads form > div#form > div > div > button {
+  background: url('../image/close.png') no-repeat;
+  border: 0px none;
+  cursor: pointer;
+  height: 24px;
+  outline: none;
+  width: 24px;
+}
+#slick-ads form > div > .button-primary {
+  font-size: 20px;
+  line-height: 20px;
+  height: 40px;
+  width: 150px;
+  text-transform: uppercase;
+}
+#slick-ads form > div#form > div > div > .image_upload_button {
+  margin: 5px 0 12px;
+}
+#slick-ads form > div#form > div span.clear {
+  clear: both;
+  display: block;
+}

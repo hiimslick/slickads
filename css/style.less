@@ -1,0 +1,76 @@
+#slick-ads {
+	form {
+		> div {
+			margin-top: 30px;
+
+			&#form {
+				max-width: 1100px;
+				width: 100%;
+
+				> div {
+					display: block;
+
+					&.heading {
+						> div {
+							font-weight: 600;
+						}
+					}
+
+					> div {
+						float: left;
+						margin: 0px;
+						padding: ((10 / 13) * 1em) ((15 / 1100) * 100%);
+						text-align: center;
+
+						&.row_url {
+							width: ((300 / 1100) * 100%);
+						}
+
+						&.row_image {
+							width: ((300 / 1100) * 100%);
+						}
+
+						&.row_button {
+							width: ((80 / 1100) * 100%);
+						}
+
+						&:first-of-type {
+							padding-left: 0px;
+						}
+
+						&:last-of-type {
+							padding-right: 0px;
+						}
+
+						> input {
+							&.field_url {
+								width: 100%;
+							}
+
+							&.field_image_banner, &.field_image_thumb {
+								width: -moz-calc(~'100% - 110px');
+								width: -webkit-calc(~'100% - 110px');
+								width: -o-calc(~'100% - 110px');
+								width: calc(~'100% - 110px');
+							}
+						}
+
+						> button {
+							background: url('../image/close.png') no-repeat;
+							border: 0px none;
+							cursor: pointer;
+							height: 24px;
+							outline: none;
+							width: 24px;
+						}
+					}
+
+					span.clear {
+						clear: both;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
