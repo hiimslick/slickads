@@ -8,8 +8,10 @@ About
 Slick Ads is a WordPress plugin that allows you to manage your ads the easiest way possible.
 And embed in your posts/pages with its simple shortcodes. It's also mobile-friendly so you won't
 have to worry about setting the height and width of banners/images.
--------------------------
 
+
+How to Use
+==========
 Display in the main content section:
 
 ::
